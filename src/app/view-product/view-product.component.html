@@ -1,0 +1,38 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-2 m-2">
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>product Code</th>
+                                <th>Name</th>
+                                <th>Manufacturing Date</th>
+                                <th>Expiry Date</th>
+                                <th>Brand</th>
+                                <th>Price</th>
+                                <th>Seller</th>
+                                <th>Distributor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let i of products">
+                                <td>{{i.productCode}}</td>
+                                <td>{{i.name}}</td>
+                                <td>{{i.manufacturingDate}}</td>
+                                <td>{{i.expiryDate}}</td>
+                                <td>{{i.brand}}</td>
+                                <td>{{i.price}}</td>
+                                <td>{{i.seller}}</td>
+                                <td>{{i.distributor}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

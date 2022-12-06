@@ -7,6 +7,7 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ViewProductComponent } from './view-product/view-product.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 let myRoutes:Routes = [
   {
@@ -22,7 +23,8 @@ let myRoutes:Routes = [
   declarations: [
     AppComponent,
     AddProductComponent,
-    ViewProductComponent
+    ViewProductComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
